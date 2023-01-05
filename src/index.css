@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    background-image: url('../public/Travel/daniela-cuevas-t7YycgAoVSw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page {
+    background-image: url('../public/Travel/shifaaz-shamoon-O0xQcGATOw4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-fifth {
+    height: 90vh;
+}
+
+/* #footer {
+    background-image: url('../public/Travel/footer@2x-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.h-400 {
+    height: 65vh;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateX(6px) translateY(6px);
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateX(-6px) translateY(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}

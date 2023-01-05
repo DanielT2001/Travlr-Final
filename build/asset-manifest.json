@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.845a80d6.css",
+    "main.js": "/static/js/main.e2a378e6.js",
+    "static/media/shifaaz-shamoon-O0xQcGATOw4-unsplash.jpg": "/static/media/shifaaz-shamoon-O0xQcGATOw4-unsplash.3eca913380ad4c9deb19.jpg",
+    "static/media/daniela-cuevas-t7YycgAoVSw-unsplash.jpg": "/static/media/daniela-cuevas-t7YycgAoVSw-unsplash.664c9df34c28f0e1280e.jpg",
+    "index.html": "/index.html",
+    "main.845a80d6.css.map": "/static/css/main.845a80d6.css.map",
+    "main.e2a378e6.js.map": "/static/js/main.e2a378e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.845a80d6.css",
+    "static/js/main.e2a378e6.js"
+  ]
+}
